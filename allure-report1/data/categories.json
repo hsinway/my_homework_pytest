@@ -1,0 +1,162 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert -5 == -3\n  +-5\n  --3",
+      "children" : [ {
+        "name" : "测试用例1",
+        "uid" : "8f770d132b0cf550",
+        "parentUid" : "b77cb31b53c0a218dcc9e8d315773e86",
+        "status" : "failed",
+        "time" : {
+          "start" : 1607956740074,
+          "stop" : 1607956740075,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "-1", "-2", "-5" ]
+      } ],
+      "uid" : "b77cb31b53c0a218dcc9e8d315773e86"
+    }, {
+      "name" : "AssertionError: assert -5 == 1\n  +-5\n  -1",
+      "children" : [ {
+        "name" : "测试用例2",
+        "uid" : "a78f487754217d17",
+        "parentUid" : "e7f08da49e47f8d3e21899cff17b3261",
+        "status" : "failed",
+        "time" : {
+          "start" : 1607956740295,
+          "stop" : 1607956740295,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "-1", "-2", "-5" ]
+      } ],
+      "uid" : "e7f08da49e47f8d3e21899cff17b3261"
+    }, {
+      "name" : "AssertionError: assert 300 == -100\n  +300\n  --100",
+      "children" : [ {
+        "name" : "测试用例2",
+        "uid" : "2c180d7125749218",
+        "parentUid" : "8e65dd2a3b37919da5d78ec40d66751a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1607956740312,
+          "stop" : 1607956740312,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "100", "200", "300" ]
+      } ],
+      "uid" : "8e65dd2a3b37919da5d78ec40d66751a"
+    }, {
+      "name" : "AssertionError: assert 3 == 0\n  +3\n  -0",
+      "children" : [ {
+        "name" : "测试用例3",
+        "uid" : "6d26060fa3078b53",
+        "parentUid" : "13c0c038041e82824484a39c91223e7c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1607956740330,
+          "stop" : 1607956740331,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "0", "3" ]
+      } ],
+      "uid" : "13c0c038041e82824484a39c91223e7c"
+    }, {
+      "name" : "AssertionError: assert -5 == 2\n  +-5\n  -2",
+      "children" : [ {
+        "name" : "测试用例3",
+        "uid" : "661c558279900ece",
+        "parentUid" : "ed28ebb1b4ec3a808be9772f59c912fa",
+        "status" : "failed",
+        "time" : {
+          "start" : 1607956740348,
+          "stop" : 1607956740348,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "-1", "-2", "-5" ]
+      } ],
+      "uid" : "ed28ebb1b4ec3a808be9772f59c912fa"
+    }, {
+      "name" : "AssertionError: assert 300 == 20000\n  +300\n  -20000",
+      "children" : [ {
+        "name" : "测试用例3",
+        "uid" : "42fda51a95232942",
+        "parentUid" : "13476cb86a8b24b853b1cfbedc504c09",
+        "status" : "failed",
+        "time" : {
+          "start" : 1607956740367,
+          "stop" : 1607956740367,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "100", "200", "300" ]
+      } ],
+      "uid" : "13476cb86a8b24b853b1cfbedc504c09"
+    }, {
+      "name" : "AssertionError: assert 3 == None\n  +3\n  -None",
+      "children" : [ {
+        "name" : "测试用例4",
+        "uid" : "214197d0e2a03ee9",
+        "parentUid" : "d5acdd09c1199f8159a8763a538f4867",
+        "status" : "failed",
+        "time" : {
+          "start" : 1607956740386,
+          "stop" : 1607956740387,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "0", "3" ]
+      } ],
+      "uid" : "d5acdd09c1199f8159a8763a538f4867"
+    }, {
+      "name" : "AssertionError: assert -5 == 0.5\n  +-5\n  -0.5",
+      "children" : [ {
+        "name" : "测试用例4",
+        "uid" : "fcb709edcda57de1",
+        "parentUid" : "833cbf8f89d09feb606d63f4a730fb49",
+        "status" : "failed",
+        "time" : {
+          "start" : 1607956740406,
+          "stop" : 1607956740406,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "-1", "-2", "-5" ]
+      } ],
+      "uid" : "833cbf8f89d09feb606d63f4a730fb49"
+    }, {
+      "name" : "AssertionError: assert 300 == 0.5\n  +300\n  -0.5",
+      "children" : [ {
+        "name" : "测试用例4",
+        "uid" : "ed252846126be3b3",
+        "parentUid" : "831ad62d8305d547283ba56ee3c07af9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1607956740426,
+          "stop" : 1607956740426,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "100", "200", "300" ]
+      } ],
+      "uid" : "831ad62d8305d547283ba56ee3c07af9"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,177 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "加法测试",
+    "children" : [ {
+      "name" : "测试用例1",
+      "uid" : "46139e03f2295a1",
+      "parentUid" : "57d4464482402e87596658cd8d1edee2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607956740060,
+        "stop" : 1607956740061,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "3", "0", "3" ]
+    }, {
+      "name" : "测试用例1",
+      "uid" : "8f770d132b0cf550",
+      "parentUid" : "57d4464482402e87596658cd8d1edee2",
+      "status" : "failed",
+      "time" : {
+        "start" : 1607956740074,
+        "stop" : 1607956740075,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "-1", "-2", "-5" ]
+    }, {
+      "name" : "测试用例1",
+      "uid" : "f79f2cd290a7ef7e",
+      "parentUid" : "57d4464482402e87596658cd8d1edee2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607956740277,
+        "stop" : 1607956740277,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "100", "200", "300" ]
+    } ],
+    "uid" : "57d4464482402e87596658cd8d1edee2"
+  }, {
+    "name" : "减法测试",
+    "children" : [ {
+      "name" : "测试用例2",
+      "uid" : "8e97867517e862ee",
+      "parentUid" : "ac5db6c5152f8b91bb8cc1310fe30aa2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607956740286,
+        "stop" : 1607956740286,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "3", "0", "3" ]
+    }, {
+      "name" : "测试用例2",
+      "uid" : "a78f487754217d17",
+      "parentUid" : "ac5db6c5152f8b91bb8cc1310fe30aa2",
+      "status" : "failed",
+      "time" : {
+        "start" : 1607956740295,
+        "stop" : 1607956740295,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "-1", "-2", "-5" ]
+    }, {
+      "name" : "测试用例2",
+      "uid" : "2c180d7125749218",
+      "parentUid" : "ac5db6c5152f8b91bb8cc1310fe30aa2",
+      "status" : "failed",
+      "time" : {
+        "start" : 1607956740312,
+        "stop" : 1607956740312,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "100", "200", "300" ]
+    } ],
+    "uid" : "ac5db6c5152f8b91bb8cc1310fe30aa2"
+  }, {
+    "name" : "乘法测试",
+    "children" : [ {
+      "name" : "测试用例3",
+      "uid" : "6d26060fa3078b53",
+      "parentUid" : "c92d5bbde6d54401912a8f2c5d382591",
+      "status" : "failed",
+      "time" : {
+        "start" : 1607956740330,
+        "stop" : 1607956740331,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "3", "0", "3" ]
+    }, {
+      "name" : "测试用例3",
+      "uid" : "661c558279900ece",
+      "parentUid" : "c92d5bbde6d54401912a8f2c5d382591",
+      "status" : "failed",
+      "time" : {
+        "start" : 1607956740348,
+        "stop" : 1607956740348,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "-1", "-2", "-5" ]
+    }, {
+      "name" : "测试用例3",
+      "uid" : "42fda51a95232942",
+      "parentUid" : "c92d5bbde6d54401912a8f2c5d382591",
+      "status" : "failed",
+      "time" : {
+        "start" : 1607956740367,
+        "stop" : 1607956740367,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "100", "200", "300" ]
+    } ],
+    "uid" : "c92d5bbde6d54401912a8f2c5d382591"
+  }, {
+    "name" : "除法测试",
+    "children" : [ {
+      "name" : "测试用例4",
+      "uid" : "214197d0e2a03ee9",
+      "parentUid" : "57a06d479a2edac4ad4b51846a3f2aff",
+      "status" : "failed",
+      "time" : {
+        "start" : 1607956740386,
+        "stop" : 1607956740387,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "3", "0", "3" ]
+    }, {
+      "name" : "测试用例4",
+      "uid" : "fcb709edcda57de1",
+      "parentUid" : "57a06d479a2edac4ad4b51846a3f2aff",
+      "status" : "failed",
+      "time" : {
+        "start" : 1607956740406,
+        "stop" : 1607956740406,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "-1", "-2", "-5" ]
+    }, {
+      "name" : "测试用例4",
+      "uid" : "ed252846126be3b3",
+      "parentUid" : "57a06d479a2edac4ad4b51846a3f2aff",
+      "status" : "failed",
+      "time" : {
+        "start" : 1607956740426,
+        "stop" : 1607956740426,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "100", "200", "300" ]
+    } ],
+    "uid" : "57a06d479a2edac4ad4b51846a3f2aff"
+  } ]
+}

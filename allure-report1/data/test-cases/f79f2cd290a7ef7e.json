@@ -1,0 +1,98 @@
+{
+  "uid" : "f79f2cd290a7ef7e",
+  "name" : "测试用例1",
+  "fullName" : "test_calculator_Sunday.TestCalc#test_add",
+  "historyId" : "9d32fcf5387dce0f7bfbe18cbe34cbc3",
+  "time" : {
+    "start" : 1607956740277,
+    "stop" : 1607956740277,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "init_calculator",
+    "time" : {
+      "start" : 1607956740059,
+      "stop" : 1607956740059,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "init_calculator::0",
+    "time" : {
+      "start" : 1607956740441,
+      "stop" : 1607956740441,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "加法测试"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "suite",
+    "value" : "test_calculator_Sunday"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalc"
+  }, {
+    "name" : "host",
+    "value" : "wwxin1"
+  }, {
+    "name" : "thread",
+    "value" : "56164-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_calculator_Sunday"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "100"
+  }, {
+    "name" : "b",
+    "value" : "200"
+  }, {
+    "name" : "expect",
+    "value" : "300"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "f79f2cd290a7ef7e.json",
+  "parameterValues" : [ "100", "200", "300" ]
+}

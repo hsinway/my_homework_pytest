@@ -1,0 +1,104 @@
+{
+  "uid" : "42fda51a95232942",
+  "name" : "测试用例3",
+  "fullName" : "test_calculator_Sunday.TestCalc#test_mul",
+  "historyId" : "b159d037bf9e66e6a8ab61c2cde791d1",
+  "time" : {
+    "start" : 1607956740367,
+    "stop" : 1607956740367,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 300 == 20000\n  +300\n  -20000",
+  "statusTrace" : "self = <test_calculator_Sunday.TestCalc object at 0x0000021D51EED670>, a = 100, b = 200, expect = 300\ninit_calculator = <pythoncode.calculator.Calculator object at 0x0000021D51ECB820>\n\n    @allure.story('乘法测试')\n    @allure.title('测试用例3')\n    @pytest.mark.run(order=3)\n    @pytest.mark.parametrize('a,b,expect',\n                             get_data()[0],\n                             ids=get_data()[1])\n    def test_mul(self, a, b, expect, init_calculator):\n>       assert expect == init_calculator.mul(a, b)\nE       assert 300 == 20000\nE         +300\nE         -20000\n\ntest_calculator_Sunday.py:42: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "init_calculator",
+    "time" : {
+      "start" : 1607956740059,
+      "stop" : 1607956740059,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "init_calculator::0",
+    "time" : {
+      "start" : 1607956740441,
+      "stop" : 1607956740441,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "乘法测试"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=3)"
+  }, {
+    "name" : "suite",
+    "value" : "test_calculator_Sunday"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalc"
+  }, {
+    "name" : "host",
+    "value" : "wwxin1"
+  }, {
+    "name" : "thread",
+    "value" : "56164-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_calculator_Sunday"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "100"
+  }, {
+    "name" : "b",
+    "value" : "200"
+  }, {
+    "name" : "expect",
+    "value" : "300"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "run(order=3)" ]
+  },
+  "source" : "42fda51a95232942.json",
+  "parameterValues" : [ "100", "200", "300" ]
+}
